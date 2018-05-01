@@ -35,7 +35,7 @@ var friends = [
 	{
 		name: "Brett Keeshin",
 		photo: "https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/556565_397318307001982_446614727_n.jpg?oh=ecca2cfb2ef048069d0f4c1abb6d3d52&oe=59E168E9",
-		score: [
+		scores: [
 			"3",
 			"1",
 			"4",
