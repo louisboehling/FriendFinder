@@ -232,8 +232,9 @@
             $.post('/api/friends', userInput, function(data) {
 
                   
-                $("#match-name").text(data.name);
-                $("#match-img").attr("src", data.photo);
+                $("#match-name").text(data.matchName);
+                console.log(data);
+                $("#match-img").attr("src", data.matchImage);
 
                 $("#results-modal").modal("toggle");
       			
